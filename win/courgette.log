@@ -1,0 +1,27 @@
+[0209/130019.985:VERBOSE1:ensemble_create.cc(239)] start GenerateEnsemblePatch
+[0209/130020.054:VERBOSE1:ensemble_create.cc(138)] done FindEmbeddedElements 0.023064
+[0209/130020.056:VERBOSE1:ensemble_create.cc(146)] old has 0 elements
+[0209/130020.056:VERBOSE1:ensemble_create.cc(147)] new has 0 elements
+[0209/130020.057:VERBOSE1:ensemble_create.cc(157)] done make bases 5.5e-05s
+[0209/130020.057:VERBOSE1:ensemble_create.cc(220)] done FindGenerators found 0 in 0.026484s
+[0209/130020.068:VERBOSE1:simple_delta.cc(35)] GenerateSimpleDelta 15 15
+[0209/130020.069:VERBOSE1:bsdiff_create.cc(96)] Start bsdiff
+[0209/130020.070:VERBOSE1:bsdiff_create.cc(123)]  done divsufsort 0.001379
+[0209/130020.089:VERBOSE1:bsdiff_create.cc(338)] Control tuples: 1  copy bytes: 15  mistakes: 0  (skips: 1)  extra bytes: 0
+Uncompressed bsdiff patch size 34
+End bsdiff 0.020685
+[0209/130020.090:VERBOSE1:simple_delta.cc(35)] GenerateSimpleDelta 15 15
+[0209/130020.090:VERBOSE1:bsdiff_create.cc(96)] Start bsdiff
+[0209/130020.092:VERBOSE1:bsdiff_create.cc(123)]  done divsufsort 0.000493
+[0209/130020.092:VERBOSE1:bsdiff_create.cc(338)] Control tuples: 1  copy bytes: 15  mistakes: 0  (skips: 1)  extra bytes: 0
+Uncompressed bsdiff patch size 34
+End bsdiff 0.001959
+[0209/130020.092:VERBOSE1:simple_delta.cc(35)] GenerateSimpleDelta 6218 8377
+[0209/130020.093:VERBOSE1:bsdiff_create.cc(96)] Start bsdiff
+[0209/130020.097:VERBOSE1:bsdiff_create.cc(123)]  done divsufsort 0.003006
+[0209/130020.100:VERBOSE1:bsdiff_create.cc(338)] Control tuples: 33  copy bytes: 5230  mistakes: 109  (skips: 116)  extra bytes: 3147
+Uncompressed bsdiff patch size 3554
+End bsdiff 0.006947
+[0209/130020.100:VERBOSE1:ensemble_create.cc(442)] done GenerateEnsemblePatch 0.084527s
+[0209/130527.178:ERROR:memory_mapped_file.cc(59)] Couldn't open exel_inplace.xlsx
+[0213/161845.851:ERROR:memory_mapped_file.cc(59)] Couldn't open D:\projects\Jabix\pshe\PSHE_user_client\test files\new - копия\exel.xlsx

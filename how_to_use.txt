@@ -1,2 +1,4 @@
-./courgette -gen old_file new_file output.diff
-courgette.exe -gen old_file new_file output.diff
+windows:
+    ./courgette -gen old_file new_file output.diff
+linux:
+    courgette.exe -gen old_file new_file output.diff
